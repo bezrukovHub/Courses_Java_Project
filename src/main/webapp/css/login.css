@@ -1,0 +1,60 @@
+body{
+    margin:0 auto;
+    width:90%;
+    padding:0;
+    font-family: 'Didact Gothic', sans-serif;
+}
+.wrap{
+    margin:30px auto;
+    width:480px;
+}
+fieldset{
+    width: 400px;
+    border-radius:10px;
+    border-right:1px solid transparent;
+    border-left:1px solid transparent;
+}
+legend{
+    background:#3A3D52;
+    width:100px;
+    height:100px;
+    margin-left:168px;
+    border-radius:50px;
+}
+h3{
+    position:relative;
+    padding-top:35px;
+    text-align:center;
+    color:#FF6D2E;
+}
+.input{
+    width:170px;
+    height: 50px;
+    margin-left:30px;
+    margin-top: 15px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    color: #7D7769;
+    font-weight: bold;
+}
+.input:focus{
+    border:1px solid rgba(255,109,46,0.6);
+    box-shadow: 0 0 3px rgba(255,109,46,0.6);
+    outline: none;
+    font-size: 1.1em;
+}.butt{
+
+     width:170px;
+     height: 50px;
+     text-align: center;
+     border-radius: 10px;
+     border: 1px solid lightgrey;
+     font-weight: bold;
+     background: #FF9D73;
+     color: #3A3D52;
+     margin:20px 140px 30px;
+ }
+.butt:hover{
+    background:#FF8652;
+}
